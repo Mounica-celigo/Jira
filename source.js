@@ -1,7 +1,6 @@
-function add(a, b) {
-    if (a && b)
-        return a + b;
-    return 0;
+function add(a) {
+    if (a)
+        return a
 }
 
 exports.add = add
